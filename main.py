@@ -259,5 +259,3 @@ thing2 = 65
 if thing1 > thing2 or thing1 ==
 
 
- git config --global user.email "muchina.ieva@gmail.com"
- git config --global user.name "muchieva"
