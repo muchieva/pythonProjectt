@@ -1,3 +1,4 @@
+from ast import literal_eval
 from statistics import median
 
 print(8*4+2)
@@ -264,6 +265,33 @@ if thing1 > thing2 and thing1 == 20:
  print("success")
 if thing2 > thing1 and thing2 < 100:
  print("completed")
+
+
+# darbo valandu per diena - 8
+darbovalandos = 8
+kiekisph = 10
+darbuotojai = 15
+savikaina = 1.67
+kaina = 3.29
+uzsakymai = 1500
+
+pagaminta = kiekisph * darbuotojai * darbovalandos
+print(pagaminta , "kepalu bus iskepta per viena darbo diena")
+
+visosav = savikaina * pagaminta
+print(visosav)
+
+gautospajamos = pagaminta * kaina
+print(gautospajamos)
+
+pelnas = gautospajamos - visosav
+print(pelnas)
+
+if pagaminta >= uzsakymai:
+ print("pagaminti pavyks")
+elif pagaminta < uzsakymai:
+ print(uzsakymai - pagaminta, "liks pagaminti")
+
 
 
 
