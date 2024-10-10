@@ -256,6 +256,14 @@ else:
 thing1 = 43
 thing2 = 65
 
-if thing1 > thing2 or thing1 ==
+if thing1 > thing2 or thing1 == 0:
+ print("suveike")
+if thing2 > thing1 or thing2 == 5:
+ print("pavyko")
+if thing1 > thing2 and thing1 == 20:
+ print("success")
+if thing2 > thing1 and thing2 < 100:
+ print("completed")
+
 
 
