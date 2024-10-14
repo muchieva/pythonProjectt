@@ -1,3 +1,4 @@
+import statistics
 from itertools import count
 from random import random, randint
 
@@ -111,3 +112,33 @@ elif o3 == 0:
     print("(", o3 , ")")
 elif o3 < 0:
     print("{", o3 , "}")
+
+kiekis = randint(5 , 3000)
+kaina = 1
+
+galutine_kaina1 = kaina - (kaina * 0.03)
+galutine_kaina2 = kaina - (kaina * 0.04)
+print(galutine_kaina2)
+print(galutine_kaina1)
+
+print(kiekis)
+
+if kiekis >= 1000 and kiekis < 2000:
+    print("Galutine kaina" , galutine_kaina1 * kiekis)
+
+elif kiekis >= 2000:
+    print("Galutine kaina" , galutine_kaina2 * kiekis)
+
+else:
+    print("Galutine kaina" , kaina * kiekis)
+
+
+s1 = randint(0 , 100)
+s2 = randint(0 , 100)
+s3 = randint(0 , 100)
+
+print(s1 , s2, s3)
+
+print(round(statistics.mean( [s1, s2, s3]) , 2 ))
+
+if s1
